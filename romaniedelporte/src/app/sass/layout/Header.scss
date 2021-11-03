@@ -1,0 +1,50 @@
+@import "../abstracts/index.scss";
+
+.header {
+  margin-top: 2rem;
+
+  &_title {
+    display: flex;
+    align-items: center;
+    
+     a {
+      color: $color-white;
+      text-decoration: none;
+      font-size: 2rem;
+      background-color: $color-lavender;
+      padding: 10px;
+     }
+
+     a:hover {
+       color: $color-white;
+       font-weight: 400;
+     }
+  }
+
+  &_nav {
+    display: flex;
+    
+    a {
+      color: $color-black;
+      font-weight: bold;
+      margin-top: 1rem;
+      font-size: 20px;
+    }
+
+    a:hover {
+      color: $main-base;
+      font-weight:400;
+    }
+
+    .active {
+      color: $main-base;
+      font-weight:600;
+    }
+  }
+
+  &_navigation {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+}

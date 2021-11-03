@@ -1,0 +1,33 @@
+@import "./variables.scss";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Alegreya Sans', sans-serif;
+}
+
+
+p {
+  font-size: 14px;
+}
+
+h1 {
+  font-size: 28px;
+  margin-bottom: 2rem;
+}
+
+h2 {
+  font-size: 24px;
+  margin-bottom: 1rem;
+}
+
+li {
+  text-decoration: none;
+  list-style: none;
+  color:$color-black;
+}
+
+a {
+  text-decoration: none; 
+  color: $color-black;
+}

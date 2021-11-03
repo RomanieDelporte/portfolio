@@ -1,0 +1,49 @@
+.homepage {
+  display: flex;
+
+  img {
+    width: 500px;
+  }
+
+  span {
+    color: $color-lavender;
+  }
+
+
+  &_intro {
+    align-self: center;
+  }
+
+  &_info h2 {
+    text-align: center;
+    color: $main-base;
+    font-weight: bold;
+    
+  }
+
+  &_skills {
+    background-color: $color-lavender;
+    align-items: center;
+    width: 280px;
+
+
+    li {
+      color: $main-black;;
+      margin: 0.5rem;
+      background-color: $color-white;
+      padding: 10px;
+      width: 200px;
+      
+    }
+
+    p {
+      display: flex;
+      justify-content: center;
+      margin-right:-5px ;
+      font-size: 1rem;
+    }
+   
+  }
+
+  
+}
