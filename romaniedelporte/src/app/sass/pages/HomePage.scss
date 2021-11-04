@@ -12,38 +12,17 @@
 
   &_intro {
     align-self: center;
+
+
   }
 
-  &_info h2 {
-    text-align: center;
-    color: $main-base;
-    font-weight: bold;
-    
-  }
-
-  &_skills {
-    background-color: $color-lavender;
-    align-items: center;
-    width: 280px;
-
-
-    li {
-      color: $main-black;;
-      margin: 0.5rem;
-      background-color: $color-white;
-      padding: 10px;
-      width: 200px;
-      
+  &_myself {
+    h1 {
+      max-width: 12%;
+      background: linear-gradient(transparent 62%, rgb(60, 110, 113) 0px) left bottom / 0% 100% no-repeat;
+      transition: background-size 1s cubic-bezier(0.075, 0.82, 0.165, 1) 0.8s;
+      will-change: background-size;
+      background-size: 100% 100%;
     }
-
-    p {
-      display: flex;
-      justify-content: center;
-      margin-right:-5px ;
-      font-size: 1rem;
-    }
-   
   }
-
-  
 }
