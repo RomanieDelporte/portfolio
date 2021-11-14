@@ -18,11 +18,78 @@
 
   &_myself {
     h1 {
-      max-width: 12%;
-      background: linear-gradient(transparent 62%, rgb(60, 110, 113) 0px) left bottom / 0% 100% no-repeat;
+      max-width: 18%;
+      background: linear-gradient(transparent 62%, rgb(91, 152, 155) 0px) left bottom / 0% 100% no-repeat;
       transition: background-size 1s cubic-bezier(0.075, 0.82, 0.165, 1) 0.8s;
       will-change: background-size;
       background-size: 100% 100%;
     }
   }
+
+
+  &_skills {
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    flex-wrap: wrap;
+  }
+
+  &_item {
+    filter: grayscale(1);
+    text-align: center;
+    img {
+      float: middle;
+      width: 50px;
+    }
+
+    p {
+     text-align: center;
+     font-family: "lato";
+     font-weight: 600;
+     margin-top: 4px;
+
+    }
+  }
+
+  &_item:nth-child(6) {
+    img {
+      width: 70px;
+    }
+  }
+  &_item:nth-child(7) {
+    img {
+      width: 70px;
+    }
+  }
+  &_item:nth-child(8) {
+    img {
+      width: 70px;
+    }
+  }
+  &_item:nth-child(9) {
+    img {
+      width: 70px;
+    }
+  }
+  &_item:nth-child(10) {
+    img {
+      width: 70px;
+    }
+  }
+  &_item:nth-child(11) {
+    img {
+      width: 70px;
+    }
+  }
+
+  &_item:hover {
+   filter: grayscale(0);
+  }
+
+  
+
+
+  
+  
+
 }
