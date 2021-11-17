@@ -1,8 +1,8 @@
 /** @format */
 
 import HomePage from "./HomePage";
-import AboutPage from "./AboutPage";
 import ContactPage from "./ContactPage";
 import PortfolioPage from "./PortfolioPage";
+import AboutPage from "./AboutPage";
 
-export { HomePage, ContactPage, AboutPage, PortfolioPage };
+export { HomePage, ContactPage, PortfolioPage, AboutPage };

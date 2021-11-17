@@ -7,18 +7,13 @@
     display: flex;
     align-items: center;
     
-     a {
-      color: $color-white;
-      text-decoration: none;
-      font-size: 2rem;
-      background-color: $color-lavender;
-      padding: 10px;
-     }
+    img {
+      width: 30%;
+    }
 
-     a:hover {
-       color: $color-white;
-       font-weight: 400;
-     }
+    img:hover {
+      transform: rotate(20deg);
+    }
   }
 
   &_nav {
@@ -32,13 +27,13 @@
     }
 
     a:hover {
-      color: $main-base;
+      color: $color-black;     
       font-weight: bold;
     }
 
     .active {
-      color: $main-base;
-      font-weight:600;
+       color: $main-base;     
+       font-weight:600;
     }
   }
 

@@ -1,0 +1,13 @@
+.aboutpage {
+
+
+  h2 {
+    max-width: 12%;
+    background: linear-gradient(transparent 62%, rgb(91, 152, 155) 0px) left bottom / 0% 100% no-repeat;
+    transition: background-size 1s cubic-bezier(0.075, 0.82, 0.165, 1) 0.8s;
+    will-change: background-size;
+    background-size: 100% 100%;
+    font-weight: 300;
+    font-size: 48px;
+  }
+}

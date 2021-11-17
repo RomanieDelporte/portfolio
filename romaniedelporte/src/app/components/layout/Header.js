@@ -3,6 +3,7 @@
 import React from "react";
 import { Link, NavLink } from "react-router-dom";
 import * as Routes from "../../routes";
+import logo from "../../assets/images/logo.svg";
 
 const Header = () => {
 	return (
@@ -11,7 +12,7 @@ const Header = () => {
 				<div className='row'>
 					<div className='header_title col-md-2'>
 						<Link to={Routes.LANDING} className='header_name'>
-							Romanie
+							<img src={logo} alt='logo' />
 						</Link>
 					</div>
 					<div className='col-md-10 header_navigation'>

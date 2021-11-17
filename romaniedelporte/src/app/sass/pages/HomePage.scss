@@ -1,95 +1,147 @@
 .homepage {
-  display: flex;
 
-  img {
-    width: 500px;
+  &_me {
+    h1 {
+      font-weight: 300;
+      font-size: 3rem;
+    }
+
+    h3 {
+      font-size: 3rem;
+      font-weight: 300
+    }
+
+    span {
+      color: $main-base;
+      font-weight: bold;
+    }
+
+    span:hover {
+      background-color: $color-lavender;
+      color: $color-white;
+    }
+
+    p {
+      font-size: 2rem;
+    }
+
+    a {
+      text-decoration: none;
+      background-color: $main-base;
+      border: 2px solid $main-base;
+      color: $color-white;
+      font-size: 20px;
+    }
+
+    a:hover {
+      background-color: $color-white;
+      color: $color-black;
+
+    }
   }
 
-  span {
-    color: $color-lavender;
+  &_image {
+    img {
+      width: 70%;
+      box-shadow: 9px 17px;
+    }
   }
 
+  &_projects {
 
-  &_intro {
-    align-self: center;
-
-
-  }
-
-  &_myself {
     h1 {
       max-width: 18%;
       background: linear-gradient(transparent 62%, rgb(91, 152, 155) 0px) left bottom / 0% 100% no-repeat;
       transition: background-size 1s cubic-bezier(0.075, 0.82, 0.165, 1) 0.8s;
       will-change: background-size;
       background-size: 100% 100%;
+      font-weight: 400;
     }
+
+    &_project {
+      position: relative;
+
+      img {
+        width: 30vh;
+        object-fit: cover;
+        box-shadow: 10px 18px $color-lavender;
+      }
+
+      a {
+        position: absolute;
+        margin-left: -6rem;
+        margin-top: 6rem;
+        text-decoration: none;
+        color: $color-black;
+
+      }
+
+      a:hover {
+        background-color: $main-base;
+        color: $color-white;
+        cursor: pointer;
+      }
+
+
+    }
+
+    &_cases {
+      display: flex;
+      justify-content: space-evenly;
+    }
+
+    &_cases:hover {
+      transition: transform .2s cubic-bezier(.215, .61, .355, 1),
+        -webkit-transform .2s cubic-bezier(.215, .61, .355, 1);
+    }
+
+    &_all {
+      text-align: center;
+
+      a {
+        background-color: $main-base;
+        color: $color-white;
+        text-decoration: none;
+        font-size: 20px;
+      }
+
+      a:hover {
+        background-color: $color-white;
+        color: $color-black;
+        cursor: pointer;
+      }
+    }
+
+
+
+
   }
 
+  &_contact {
+    margin-top: 6rem;
+    width: 100%;
 
-  &_skills {
-    display: flex;
-    justify-content: space-around;
-    align-content: center;
-    flex-wrap: wrap;
-  }
-
-  &_item {
-    filter: grayscale(1);
     text-align: center;
-    img {
-      float: middle;
-      width: 50px;
+
+
+    a {
+      text-decoration: none;
+      color: $color-black;
+      font-weight: bold;
+    }
+
+    a:hover {
+      color: $color-black;
+      background-color: $main-base;
+      color: $color-white;
     }
 
     p {
-     text-align: center;
-     font-family: "lato";
-     font-weight: 600;
-     margin-top: 4px;
-
+      font-size: 18px;
     }
   }
 
-  &_item:nth-child(6) {
-    img {
-      width: 70px;
-    }
-  }
-  &_item:nth-child(7) {
-    img {
-      width: 70px;
-    }
-  }
-  &_item:nth-child(8) {
-    img {
-      width: 70px;
-    }
-  }
-  &_item:nth-child(9) {
-    img {
-      width: 70px;
-    }
-  }
-  &_item:nth-child(10) {
-    img {
-      width: 70px;
-    }
-  }
-  &_item:nth-child(11) {
-    img {
-      width: 70px;
-    }
-  }
-
-  &_item:hover {
-   filter: grayscale(0);
-  }
-
-  
 
 
-  
-  
 
 }

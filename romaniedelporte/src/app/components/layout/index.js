@@ -1,5 +1,6 @@
 /** @format */
 
 import Header from "./Header";
+import Footer from "./Footer";
 
-export { Header };
+export { Header, Footer };
