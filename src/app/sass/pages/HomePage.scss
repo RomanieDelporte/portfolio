@@ -47,9 +47,8 @@
   }
 
   &_projects {
-
     h1 {
-      max-width: 18%;
+      max-width: 12%;
       background: linear-gradient(transparent 62%, rgb(189, 139, 156) 0px) left bottom / 0% 100% no-repeat;
       transition: background-size 1s cubic-bezier(0.075, 0.82, 0.165, 1) 0.8s;
       will-change: background-size;
@@ -137,7 +136,7 @@
     position: absolute;
     background: fixed;
     position: absolute;
-    background-color: $color-lavender; 
+    background-color: $color-lavender;
     max-width: 42rem;
     height: 30vh;
     margin-left: 4rem;
@@ -163,6 +162,64 @@
 
 
 
+
+
+}
+
+
+
+@media (max-width: 990px) {
+  .homepage_image {
+    display: flex;
+    justify-content: center;
+
+    img {
+      margin-top: 30px;
+    }
+  }
+
+  .homepage_projects {
+    h1 {
+     margin-top: 30px;
+
+    }
+
+    &_project {
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+
+      a {
+        margin-left: 8rem;
+        margin-top: 7rem;
+        text-decoration: none;
+        color: $color-black;
+        font-size: 14px;
+
+      }
+    }
+
+  }
+
+  .homepage_working {
+    img {
+      display: none;
+    }
+
+  }
+
+  .homepage_contact {
+    margin-top: 2rem;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    right: 10%;
+
+  }
+
+  
 
 
 }

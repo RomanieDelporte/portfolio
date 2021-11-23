@@ -132,18 +132,22 @@
     }
   }
 
-  &_intern {
-    display: flex;
-    justify-content: space-between;
+}
 
-    a {
-      color: $color-lavender;
-      text-decoration: none;
+
+@media (max-width: 990px) {
+  .aboutpage {
+    &_about {
+      h1 {
+        font-size: 26px;
+        max-width: 25%;
+      }
     }
-
-    a:hover {
-      color: $color-lavender;
+    &_technologies {
+      h1 {
+        font-size: 26px;
+        max-width: 40%;
+      }
     }
   }
-
 }
