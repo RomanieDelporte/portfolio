@@ -58,9 +58,14 @@
     align-items: center;
   }
 
-  .header .hamburgernavigation nav {
+  .header_nav  {
     display: flex;
     flex-direction: column;
+    top: 80px;
+    background: $color-white;
+    right: 0;
+    width: 100%;
+    align-items: center;
   }
 
   .header .hamburgernavigation .hamburger {

@@ -88,20 +88,20 @@ const AboutPage = () => {
 								<p>Adobexd</p>
 							</div>
 						</div>
-						<div className='aboutpage_experience mt-5 container col-12'>
+						<div className='aboutpage_experience mt-5 container col-12 '>
 							<h1>Experience</h1>
-							<div className='aboutpage_intern col-md-6'>
+							<div className='aboutpage_intern col-md-6 col-sm-2 '>
 								<p>Frontend Developer</p>
 								<p>Current</p>
 							</div>
-							<div className='aboutpage_intern col-md-6'>
+							<div className='aboutpage_intern col-md-6 col-sm-2'>
 								<p>
 									Trainee frontend Development @
 									<a href='https://sweetmustard.be'>Sweet Mustard</a>
 								</p>
 								<p>02/21 - 05/21</p>
 							</div>
-							<div className='aboutpage_intern col-md-6'>
+							<div className='aboutpage_intern col-md-6 col-sm-2'>
 								<p>Associate degree programming @ArteveldeHogeschool</p>
 								<p>2019-2021</p>
 							</div>

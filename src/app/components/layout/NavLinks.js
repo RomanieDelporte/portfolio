@@ -31,8 +31,7 @@ const NavLinks = (props) => {
 							<NavLink
 								to={Routes.PORTFOLIO}
 								className='nav-link'
-								activeClassName='active'
-								onClick={() => props.isMobile && props.closeHamburgerMenu()}>
+								activeClassName='active' onClick={() => props.isMobile && props.closeHamburgerMenu()}>
 								Portfolio
 							</NavLink>
 						</li>
@@ -41,7 +40,7 @@ const NavLinks = (props) => {
 								to={Routes.CONTACT}
 								className='nav-link'
 								activeClassName='active'
-								onClick={() => props.isMobile && props.closeHamburgerMenu()}>
+                onClick={() => props.isMobile && props.closeHamburgerMenu()}>
 								Contact
 							</NavLink>
 						</li>
