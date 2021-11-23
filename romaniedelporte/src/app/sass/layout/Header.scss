@@ -42,4 +42,32 @@
     justify-content: flex-end;
   }
 
+
+}
+
+.header .hamburgernavigation {
+  display: none;
+}
+
+@media (max-width: 990px) {
+  .header .navigation {
+    display: none;
+  }
+  .header .hamburgernavigation {
+    display: flex;
+    align-items: center;
+  }
+
+  .header .hamburgernavigation nav {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .header .hamburgernavigation .hamburger {
+    position: absolute;
+    right: 5%;
+    cursor: pointer;
+  }
+
+  
 }

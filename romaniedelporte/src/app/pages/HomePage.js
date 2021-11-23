@@ -4,6 +4,7 @@ import React from "react";
 import me from "../assets/images/mezelf.jpg";
 import comingsoon from "../assets/images/comingsoon.jpeg";
 import Button from "../components/Button";
+import work from "../assets/images/work.png";
 
 const HomePage = () => {
 	return (
@@ -35,14 +36,17 @@ const HomePage = () => {
 						<div className='homepage_projects_project mt-5'>
 							<img src={comingsoon} alt='coming' />
 							<Button title='See Case' />
+							<p>Still working on...</p>
 						</div>
 						<div className='homepage_projects_project mt-5'>
 							<img src={comingsoon} alt='coming' />
 							<Button title='See Case' />
+							<p>Still working on...</p>
 						</div>
 						<div className='homepage_projects_project mt-5'>
 							<img src={comingsoon} alt='coming' />
 							<Button title='See Case' />
+							<p>Still working on...</p>
 						</div>
 					</div>
 					<div className='homepage_projects_all mt-5'>
@@ -50,13 +54,19 @@ const HomePage = () => {
 					</div>
 				</div>
 			</div>
-			<div className='homepage_contact'>
-				<h2>Contact me</h2>
-				<p>If you have any questions or want to discuss something</p>
-				<Button
-					title="Email me"
-					email='mailto:romaniedelporte230@gmail.com'
-				/>
+			<div className='homepage_working mt-5 mb-0'>
+				<img src={work} alt='work' />
+				<div className='homepage_contact p-4'>
+					<h2>Contact me</h2>
+					<p>
+						If you have questions or want to discuss something? on my aboutpage
+						you will find some info about me.
+					</p>
+					<Button
+						title='Email me → '
+						email='mailto:romaniedelporte230@gmail.com'
+					/>
+				</div>
 			</div>
 		</div>
 	);

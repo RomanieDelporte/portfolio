@@ -1,13 +1,149 @@
 .aboutpage {
-
-
-  h2 {
+  
+  h1 {
     max-width: 12%;
-    background: linear-gradient(transparent 62%, rgb(91, 152, 155) 0px) left bottom / 0% 100% no-repeat;
+    background: linear-gradient(transparent 62%, rgb(189, 139, 156) 0px) left bottom / 0% 100% no-repeat;
     transition: background-size 1s cubic-bezier(0.075, 0.82, 0.165, 1) 0.8s;
     will-change: background-size;
     background-size: 100% 100%;
     font-weight: 300;
     font-size: 48px;
   }
+
+  p {
+    font-size: 22px;
+  }
+
+  span {
+    color: $color-lavender;
+    font-weight: bold;
+  }
+
+  &_cv {
+    display: flex;
+    justify-content: center;
+    a {
+      background-color: $main-base;
+      color: $color-white;
+      text-decoration: none;
+      font-size: 20px;
+      
+    }
+
+    a:hover {
+      background-color: $color-white;
+      color: $color-black;
+    }
+  }
+
+  &_technologies {
+    flex-wrap: wrap;
+    h1 {
+      max-width: 20%;
+      background: linear-gradient(transparent 62%, rgb(189, 139, 156) 0px) left bottom / 0% 100% no-repeat;
+      transition: background-size 1s cubic-bezier(0.075, 0.82, 0.165, 1) 0.8s;
+      will-change: background-size;
+      background-size: 100% 100%;
+      font-weight: 300;
+      font-size: 48px;
+    }
+
+
+    &_item {
+      text-align: center;
+      img {
+        width: 50px;
+        filter: grayscale(1);
+        float: middle;
+      }
+
+      img:hover {
+        filter: grayscale(0);
+      }
+      p {
+        font-size: 14px;
+      }
+    }
+
+    &_item:nth-child(2) {
+      img {
+        width: 70px;
+      }
+    }
+    &_item:nth-child(3) {
+      img {
+        width: 70px;
+      }
+    }
+    &_item:nth-child(4) {
+      img {
+        width: 70px;
+      }
+    }
+    &_item:nth-child(5) {
+      img {
+        width: 70px;
+      }
+    }
+    &_item:nth-child(6) {
+      img {
+        width: 70px;
+      }
+    }
+    &_item:nth-child(7) {
+      img {
+        width: 70px;
+      }
+    }
+    &_item:nth-child(8) {
+      img {
+        width: 70px;
+      }
+    }
+    &_item:nth-child(9) {
+      img {
+        width: 70px;
+      }
+    }
+    &_item:nth-child(11) {
+      img {
+        width: 70px;
+      }
+    }
+    &_item:nth-child(12) {
+      img {
+        width: 70px;
+      }
+    }
+    
+    
+    
+  }
+
+  &_experience {
+    h1 {
+      max-width: 17%;
+      background: linear-gradient(transparent 62%, rgb(189, 139, 156) 0px) left bottom / 0% 100% no-repeat;
+      transition: background-size 1s cubic-bezier(0.075, 0.82, 0.165, 1) 0.8s;
+      will-change: background-size;
+      background-size: 100% 100%;
+      font-weight: 300;
+      font-size: 48px;
+    }
+  }
+
+  &_intern {
+    display: flex;
+    justify-content: space-between;
+
+    a {
+      color: $color-lavender;
+      text-decoration: none;
+    }
+
+    a:hover {
+      color: $color-lavender;
+    }
+  }
+
 }
