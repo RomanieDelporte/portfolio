@@ -4,10 +4,34 @@ import React from "react";
 import ReactDOM from "react-dom";
 import App from "./app";
 import reportWebVitals from "./reportWebVitals";
+import {
+	ApolloProvider,
+	InMemoryCache,
+	HttpLink,
+	ApolloLink,
+	ApolloClient,
+} from "@apollo/client";
+// import reportWebVitals from './reportWebVitals';
+
+const httpLink = new HttpLink({
+	uri:
+		process.env.NODE_ENV === "development"
+			? "http://localhost:4000"
+			: "http://localhost:4000",
+});
+
+// init apolloclient
+const client = new ApolloClient({
+	link: httpLink,
+	// uri: 'http://localhost:4000',
+	cache: new InMemoryCache(),
+});
 
 ReactDOM.render(
 	<React.StrictMode>
-		<App />
+		<ApolloProvider client={client}>
+			<App />
+		</ApolloProvider>
 	</React.StrictMode>,
 	document.getElementById("root"),
 );

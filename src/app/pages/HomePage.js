@@ -30,20 +30,20 @@ const HomePage = () => {
 						/>
 					</div>
 				</div>
-				<div className='homepage_projects container col-12'>
-					<h1>Projects</h1>
-					<div className='homepage_projects_cases row '>
-						<div className='homepage_projects_project mt-5 col-12 col-lg-4'>
+				<div className='homepage_projects mt-5'>
+					<h1> Projects</h1>
+					<div className='homepage_projects_cases'>
+						<div className='homepage_projects_project mt-5'>
 							<img src={comingsoon} alt='coming' />
 							<Button title='See Case' />
 							<p>Still working on...</p>
 						</div>
-						<div className='homepage_projects_project mt-5 col-12 col-lg-4'>
+						<div className='homepage_projects_project mt-5'>
 							<img src={comingsoon} alt='coming' />
 							<Button title='See Case' />
 							<p>Still working on...</p>
 						</div>
-						<div className='homepage_projects_project mt-5 col-12 col-lg-4'>
+						<div className='homepage_projects_project mt-5'>
 							<img src={comingsoon} alt='coming' />
 							<Button title='See Case' />
 							<p>Still working on...</p>
