@@ -93,3 +93,11 @@
 
   
 }
+
+@media (max-width: 375px) {
+  .header_name {
+    img {
+      width: 25%;
+    }
+  }
+}
