@@ -7,7 +7,7 @@ import logo from "../../assets/images/logo.svg";
 const NavLinks = (props) => {
 	return (
 		<div className='container col-12'>
-			<div className='row'>
+			<div className='row header_heading'>
 				<div className='header_title col-md-2'>
 					<Link
 						to={Routes.LANDING}
@@ -31,7 +31,8 @@ const NavLinks = (props) => {
 							<NavLink
 								to={Routes.PORTFOLIO}
 								className='nav-link'
-								activeClassName='active' onClick={() => props.isMobile && props.closeHamburgerMenu()}>
+								activeClassName='active'
+								onClick={() => props.isMobile && props.closeHamburgerMenu()}>
 								Portfolio
 							</NavLink>
 						</li>
@@ -40,7 +41,7 @@ const NavLinks = (props) => {
 								to={Routes.CONTACT}
 								className='nav-link'
 								activeClassName='active'
-                onClick={() => props.isMobile && props.closeHamburgerMenu()}>
+								onClick={() => props.isMobile && props.closeHamburgerMenu()}>
 								Contact
 							</NavLink>
 						</li>

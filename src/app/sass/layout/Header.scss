@@ -6,7 +6,7 @@
   &_title {
     display: flex;
     align-items: center;
-    
+
     img {
       width: 30%;
     }
@@ -22,7 +22,7 @@
 
   &_nav {
     display: flex;
-    
+
     a {
       color: $color-black;
       font-weight: bold;
@@ -31,13 +31,13 @@
     }
 
     a:hover {
-      color: $color-black;     
+      color: $color-black;
       font-weight: bold;
     }
 
     .active {
-       color: $main-base;     
-       font-weight:600;
+      color: $main-base;
+      font-weight: 600;
     }
   }
 
@@ -54,15 +54,21 @@
 }
 
 @media (max-width: 990px) {
+  .header .hamburgernavigation .close {
+    opacity: 1;
+
+  }
+
   .header .navigation {
     display: none;
   }
+
   .header .hamburgernavigation {
     display: flex;
     align-items: center;
   }
 
-  .header_nav  {
+  .header_nav {
     display: flex;
     flex-direction: column;
     top: 80px;
@@ -91,13 +97,13 @@
     }
   }
 
-  
+
 }
 
 @media (max-width: 375px) {
   .header_name {
     img {
-      width: 25%;
+      width: 20%;
     }
   }
 }
