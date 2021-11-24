@@ -16,6 +16,10 @@
     }
   }
 
+  &_heading {
+    display: flex;
+  }
+
   &_nav {
     display: flex;
     
@@ -72,6 +76,19 @@
     position: absolute;
     right: 5%;
     cursor: pointer;
+  }
+
+  .header .hamburgernavigation .close {
+    position: absolute;
+    right: 5%;
+    margin-top: -6rem;
+    cursor: pointer;
+  }
+
+  .header_name {
+    img {
+      width: 20%;
+    }
   }
 
   

@@ -18,7 +18,7 @@ const HamburgerNavigation = () => {
 	);
 	const CloseIcon = (
 		<AiOutlineClose
-			className='hamburger'
+			className='close'
 			size='40px'
 			color='black'
 			onClick={() => setOpen(!open)}
