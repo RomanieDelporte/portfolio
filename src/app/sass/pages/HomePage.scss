@@ -236,3 +236,13 @@
 
 
 }
+
+@media (max-width: 375px) {
+  .homepage_projects {
+    &_project {
+      a { 
+        margin-left: 4rem;
+      }
+    }
+  }
+}
