@@ -60,6 +60,7 @@
   .header .hamburgernavigation {
     display: flex;
     align-items: center;
+    position: relative;
   }
 
   .header_nav  {
@@ -87,7 +88,7 @@
 
   .header_name {
     img {
-      width: 20%;
+      width: 25%;
     }
   }
 
