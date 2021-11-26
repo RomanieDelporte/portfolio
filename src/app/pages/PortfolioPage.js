@@ -1,20 +1,21 @@
 /** @format */
 
 import React from "react";
-import education from "../assets/images/opleiding.jpg";
-import audily from "../assets/images/audily.png";
-import langon from "../assets/images/langon.png";
-import optieker from "../assets/images/optieker.png";
+import { Project } from "../components/project";
+import Button from "../components/Button";
 
-const PortfolioPage = ({ id, portfolio }) => {
-
-	
+const PortfolioPage = () => {
 	return (
-		<div className='portfoliopage mt-5 col-12'>
-			<div className='container'>
-				<div className='row'>
-					
-				</div>
+		<div className='portfoliopage container mt-5'>
+			<h1>Cases</h1>
+			<div className='row'>
+				<Project />
+			</div>
+			<div className='portfoliopage_github'>
+				<Button
+					title='See more on github →'
+					email='https://github.com/RomanieDelporte'
+				/>
 			</div>
 		</div>
 	);

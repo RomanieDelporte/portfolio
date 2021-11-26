@@ -6,7 +6,13 @@ import { BaseLayout } from "./layouts";
 import { RouteWithLayout } from "./utilities";
 import { BrowserRouter as Router, Switch } from "react-router-dom";
 import * as Routes from "./routes";
-import { AboutPage, ContactPage, HomePage, PortfolioPage } from "./pages";
+import {
+	AboutPage,
+	ContactPage,
+	HomePage,
+	PortfolioPage,
+	PortfolioDetailPage,
+} from "./pages";
 
 function App() {
 	return (
@@ -30,6 +36,12 @@ function App() {
 						path={Routes.PORTFOLIO}
 						layout={BaseLayout}
 						component={PortfolioPage}
+					/>
+					<RouteWithLayout
+						exact
+						path={Routes.PORTFOLIO_DETAIL}
+						layout={BaseLayout}
+						component={PortfolioDetailPage}
 					/>
 					<RouteWithLayout
 						exact

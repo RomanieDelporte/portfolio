@@ -8,10 +8,8 @@ import {
 	ApolloProvider,
 	InMemoryCache,
 	HttpLink,
-	ApolloLink,
 	ApolloClient,
 } from "@apollo/client";
-// import reportWebVitals from './reportWebVitals';
 
 const httpLink = new HttpLink({
 	uri:
@@ -20,10 +18,8 @@ const httpLink = new HttpLink({
 			: "http://localhost:4000",
 });
 
-// init apolloclient
 const client = new ApolloClient({
 	link: httpLink,
-	// uri: 'http://localhost:4000',
 	cache: new InMemoryCache(),
 });
 

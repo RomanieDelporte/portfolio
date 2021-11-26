@@ -31,8 +31,9 @@
     }
 
     a:hover {
-      color: $color-black;
+      background-color: $main-base;
       font-weight: bold;
+      color: $color-white;
     }
 
     .active {
@@ -98,12 +99,4 @@
   }
 
 
-}
-
-@media (max-width: 375px) {
-  .header_name {
-    img {
-      width: 80%;
-    }
-  }
 }

@@ -46,77 +46,6 @@
     }
   }
 
-  &_projects {
-    h1 {
-      max-width: 12%;
-      background: linear-gradient(transparent 62%, rgb(189, 139, 156) 0px) left bottom / 0% 100% no-repeat;
-      transition: background-size 1s cubic-bezier(0.075, 0.82, 0.165, 1) 0.8s;
-      will-change: background-size;
-      background-size: 100% 100%;
-      font-weight: 400;
-    }
-
-    &_project {
-      position: relative;
-
-      img {
-        width: 30vh;
-        object-fit: cover;
-      }
-
-      a {
-        position: absolute;
-        margin-left: -6rem;
-        margin-top: 6rem;
-        text-decoration: none;
-        color: $color-black;
-        font-size: 14px;
-
-      }
-
-      p {
-        margin-top: 2rem;
-        text-align: center;
-        font-size: 18px;
-      }
-
-      a:hover {
-        background-color: $main-base;
-        color: $color-white;
-        cursor: pointer;
-      }
-
-
-    }
-
-    &_cases {
-      display: flex;
-      justify-content: space-evenly;
-      text-align: center;
-    }
-
-
-    &_all {
-      text-align: center;
-
-      a {
-        background-color: $main-base;
-        color: $color-white;
-        text-decoration: none;
-        font-size: 20px;
-      }
-
-      a:hover {
-        background-color: $color-white;
-        color: $color-black;
-        cursor: pointer;
-      }
-    }
-
-
-
-
-  }
 
   &_working {
     display: flex;
@@ -162,6 +91,27 @@
   }
 
 
+  &_about {
+    margin-top: 7rem;
+    text-align: center;
+    h1 {
+      color: $main-base;
+      padding-bottom: 10px;
+      border-bottom: 1px solid $color-black;
+    }
+   
+  }
+
+  &_challenge {
+    h2 {
+      font-size: 24px;
+      font-weight: bold;
+    }
+
+    p {font-size: 18px;}
+  }
+
+
 
 
 
@@ -184,7 +134,6 @@
      margin-top: 30px;
     max-width: 28%;
     }
-
     &_project {
       display: flex;
       align-items: center;
@@ -236,14 +185,4 @@
   
 
 
-}
-
-@media (max-width: 375px) {
-  .homepage_projects {
-    &_project {
-      a { 
-        margin-left: 4rem;
-      }
-    }
-  }
 }

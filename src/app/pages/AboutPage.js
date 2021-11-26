@@ -23,7 +23,7 @@ const AboutPage = () => {
 					<div className='aboutpage_about mt-5'>
 						<h1>Resumé</h1>
 					</div>
-					<div className='aboutpage_info mt-5 col-md-6'>
+					<div className='aboutpage_info mt-5 '>
 						<p>
 							I'm <span>Romanie Delporte</span> a frontend/full-stack developer{" "}
 							<br></br>

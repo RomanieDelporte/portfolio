@@ -6,30 +6,90 @@
     justify-content: space-between;
     flex-wrap: wrap;
     margin-bottom: 1rem;
-    .card {
-      width: 30%;
-    }
-    .card-img-top {
-      height: 100%;
-      img {
-        width: 30%;
-       
-      }
-      
-    }
+  }
 
-    .card-body {
-      p{
-        font-weight: 400;
-        color: $color-black;
-      }
-    }
+  h1 {
+    max-width: 8%;
+    background: linear-gradient(transparent 62%, rgb(189, 139, 156) 0px) left bottom / 0% 100% no-repeat;
+    transition: background-size 1s cubic-bezier(0.075, 0.82, 0.165, 1) 0.8s;
+    will-change: background-size;
+    background-size: 100% 100%;
+    font-weight: 400;
+  }
+
+  &_github {
+    width: 3Ovw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
     a {
-      text-decoration: none;
-      color: $color-white;
       background-color: $main-base;
-      padding: 0.5rem;
+      color: $color-white;
+      text-decoration: none;
+    }
+
+    a:hover {
+      background-color: $color-white;
+      color: $color-black;
+    }
+  }
+}
+
+.card {
+  width: 30%;
+  box-shadow: 5px 8px $main-base;
+  border: 2px solid $main-base;
+  margin-bottom: 2rem;
+}
+
+
+.card-img-top {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+
+  img {
+    width: 30%;
+
+  }
+
+}
+
+.card-body {
+  p {
+    font-weight: 400;
+    color: $color-black;
+  }
+
+  a {
+    text-decoration: none;
+    color: $main-base;
+    font-weight: bold;
+    font-size: 20px;
+  }
+
+  a:hover {
+    color: $main-base;
+  }
+}
+
+.row {
+  display: flex;
+  justify-content: space-around;
+}
+
+
+
+@media (max-width: 990px) {
+  .portfoliopage {
+    h1 {
+      max-width: 18%;
+      background: linear-gradient(transparent 62%, rgb(189, 139, 156) 0px) left bottom / 0% 100% no-repeat;
+      transition: background-size 1s cubic-bezier(0.075, 0.82, 0.165, 1) 0.8s;
+      will-change: background-size;
+      background-size: 100% 100%;
+      font-weight: 400;
     }
   }
 }

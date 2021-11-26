@@ -2,7 +2,6 @@
 
 import React from "react";
 import me from "../assets/images/mezelf.jpg";
-import comingsoon from "../assets/images/comingsoon.jpeg";
 import Button from "../components/Button";
 import work from "../assets/images/work.png";
 
@@ -20,7 +19,6 @@ const HomePage = () => {
 							Frontend Developer that strives for a beautiful design and better
 							code.
 						</p>
-						<Button title='About me  →' email='/about' />
 					</div>
 					<div className='homepage_image col-md-6'>
 						<img
@@ -30,27 +28,19 @@ const HomePage = () => {
 						/>
 					</div>
 				</div>
-				<div className='homepage_projects mt-5'>
-					<h1> Projects</h1>
-					<div className='homepage_projects_cases'>
-						<div className='homepage_projects_project mt-5'>
-							<img src={comingsoon} alt='coming' />
-							<Button title='See Case' />
-							<p>Still working on...</p>
+				<div className='homepage_about container'>
+					<div className='row'>
+						<h1>My focus</h1>
+						<div className=' homepage_challenge mt-3 col-md-6'>
+							<h2>Challenge</h2>
+							<p>
+								As a student I don't know and can't do everything yet. But I am
+								always willing to take on new challenges and learn new
+								technologies. Completely up-to-date with the latest
+								developments, we will find the best solution for your needs
+								together
+							</p>
 						</div>
-						<div className='homepage_projects_project mt-5'>
-							<img src={comingsoon} alt='coming' />
-							<Button title='See Case' />
-							<p>Still working on...</p>
-						</div>
-						<div className='homepage_projects_project mt-5'>
-							<img src={comingsoon} alt='coming' />
-							<Button title='See Case' />
-							<p>Still working on...</p>
-						</div>
-					</div>
-					<div className='homepage_projects_all mt-5'>
-						<Button title='All cases → ' email='/portfolio' />
 					</div>
 				</div>
 			</div>

@@ -1,0 +1,45 @@
+.detail {
+
+  &_image {
+    img {
+      width: 100%;
+      object-fit: contain;
+    }
+  }
+
+  &_about {
+    p {
+      font-size: 18px;
+    }
+  }
+
+  &_github {
+    a {
+      background-color: $color-lavender;
+      color: $color-white;
+      border: 2px solid $color-lavender;
+      padding: 1rem;
+      text-decoration: none;
+    }
+
+    a:hover {
+      color: $color-white;
+    }
+  }
+
+  &_link {
+    a {
+      color: $main-base;
+      text-decoration: none;
+      font-weight: 400;
+      font-size: 20px;
+    }
+
+    a:hover {
+      color: $main-base
+    }
+  }
+
+
+
+}

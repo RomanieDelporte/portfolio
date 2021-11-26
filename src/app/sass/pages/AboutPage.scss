@@ -1,13 +1,12 @@
 .aboutpage {
-  
+
   h1 {
-    max-width: 12%;
+    max-width: 10%;
     background: linear-gradient(transparent 62%, rgb(189, 139, 156) 0px) left bottom / 0% 100% no-repeat;
     transition: background-size 1s cubic-bezier(0.075, 0.82, 0.165, 1) 0.8s;
     will-change: background-size;
     background-size: 100% 100%;
     font-weight: 300;
-    font-size: 48px;
   }
 
   p {
@@ -22,12 +21,13 @@
   &_cv {
     display: flex;
     justify-content: center;
+
     a {
       background-color: $main-base;
       color: $color-white;
       text-decoration: none;
       font-size: 20px;
-      
+
     }
 
     a:hover {
@@ -38,19 +38,20 @@
 
   &_technologies {
     flex-wrap: wrap;
+
     h1 {
-      max-width: 20%;
+      max-width: 16%;
       background: linear-gradient(transparent 62%, rgb(189, 139, 156) 0px) left bottom / 0% 100% no-repeat;
       transition: background-size 1s cubic-bezier(0.075, 0.82, 0.165, 1) 0.8s;
       will-change: background-size;
       background-size: 100% 100%;
       font-weight: 300;
-      font-size: 48px;
     }
 
 
     &_item {
       text-align: center;
+
       img {
         width: 50px;
         filter: grayscale(1);
@@ -60,6 +61,7 @@
       img:hover {
         filter: grayscale(0);
       }
+
       p {
         font-size: 14px;
       }
@@ -70,54 +72,63 @@
         width: 70px;
       }
     }
+
     &_item:nth-child(3) {
       img {
         width: 70px;
       }
     }
+
     &_item:nth-child(4) {
       img {
         width: 70px;
       }
     }
+
     &_item:nth-child(5) {
       img {
         width: 70px;
       }
     }
+
     &_item:nth-child(6) {
       img {
         width: 70px;
       }
     }
+
     &_item:nth-child(7) {
       img {
         width: 70px;
       }
     }
+
     &_item:nth-child(8) {
       img {
         width: 70px;
       }
     }
+
     &_item:nth-child(9) {
       img {
         width: 70px;
       }
     }
+
     &_item:nth-child(11) {
       img {
         width: 70px;
       }
     }
+
     &_item:nth-child(12) {
       img {
         width: 70px;
       }
     }
-    
-    
-    
+
+
+
   }
 
   &_experience {
@@ -143,6 +154,7 @@
         max-width: 25%;
       }
     }
+
     &_technologies {
       h1 {
         font-size: 26px;
