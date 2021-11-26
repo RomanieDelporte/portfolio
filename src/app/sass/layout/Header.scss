@@ -9,7 +9,8 @@
 
     h2 {
       color: $main-base;
-      box-shadow: 7px 9px $color-bleauBlue;
+      opacity: 0.7;
+      box-shadow: 7px 9px $color-lavender;
       text-decoration: none;
       padding: 0.2rem;
     }
@@ -17,6 +18,7 @@
     a {
       text-decoration: none;
     }
+
 
     h2:hover {
       transform: rotate(20deg);
