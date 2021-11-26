@@ -36,7 +36,7 @@ const PortfolioDetailPage = () => {
 								← Cases
 							</a>
 						</div>
-						<div name='content' className='detail__title col-6 col-sm-12 mt-5'>
+						<div name='content' className='detail__title col-sm-12 mt-5'>
 							<h1>{data.project.title}</h1>
 						</div>
 						<div className='detail_image'>
