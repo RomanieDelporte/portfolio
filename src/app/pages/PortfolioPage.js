@@ -15,6 +15,7 @@ const PortfolioPage = () => {
 				<Button
 					title='See more on github →'
 					email='https://github.com/RomanieDelporte'
+					target='_blank'
 				/>
 			</div>
 		</div>
