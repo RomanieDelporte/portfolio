@@ -7,12 +7,18 @@
     display: flex;
     align-items: center;
 
-    img {
-      width: 30%;
+    h2 {
+      color: $main-base;
+      box-shadow: 7px 9px $color-bleauBlue;
+      text-decoration: none;
+      padding: 0.2rem;
     }
-    
 
-    img:hover {
+    a {
+      text-decoration: none;
+    }
+
+    h2:hover {
       transform: rotate(20deg);
     }
   }

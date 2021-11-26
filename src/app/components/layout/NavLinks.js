@@ -2,7 +2,6 @@
 
 import { Link, NavLink } from "react-router-dom";
 import * as Routes from "../../routes";
-import react from "../../assets/images/react.png";
 
 const NavLinks = (props) => {
 	return (
@@ -13,7 +12,7 @@ const NavLinks = (props) => {
 						to={Routes.LANDING}
 						className='header_name'
 						onClick={() => props.isMobile && props.closeHamburgerMenu()}>
-						<img src={react} alt='logo' />
+						<h2>Romanie</h2>
 					</Link>
 				</div>
 				<div className='col-md-10 header_navigation'>
