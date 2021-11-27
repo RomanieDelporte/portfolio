@@ -9,7 +9,7 @@
 
 
     img {
-      width: 25%;
+      width: 22%;
     }
 
     a {
@@ -37,13 +37,13 @@
     }
 
     a:hover {
-      background-color: $main-base;
+      color: $main-base;
       font-weight: bold;
-      color: $color-white;
     }
 
     .active {
       color: $main-base;
+      border-bottom: 2px solid $main-base;
       font-weight: 600;
     }
   }
@@ -100,8 +100,17 @@
 
   .header_name {
     img {
-      width: 20%;
+      width: 16%;
+      margin-top: 0.2rem;
     }
+  }
+
+  .header_nav .active {
+    border-bottom: 2px solid $main-base;
+  }
+
+  .header_nav a:hover {
+    color: $main-base;
   }
 
 
