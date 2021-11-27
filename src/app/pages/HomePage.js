@@ -37,8 +37,7 @@ const HomePage = () => {
 								As a student I don't know and can't do everything yet. But I am
 								always willing to take on new challenges and learn new
 								technologies. Completely up-to-date with the latest
-								developments, we will find the best solution for your needs
-								together
+								developments.
 							</p>
 						</div>
 					</div>
