@@ -17,24 +17,28 @@ const GET_PROJECTS = gql`
 `;
 
 const Project = () => {
-	const { loading, data, } = useQuery(GET_PROJECTS, {});
+	const { loading, data } = useQuery(GET_PROJECTS, {});
 
-	return (
-		<div className='row g-0 p-3'>
-			{!loading &&
-				data.projects.map((project, key) => (
-					<div className='card col-12 col-md-3' key={key}>
-						<img src={project.image} className='card-img-top' alt='...' />
-						<div className='card-body'>
-							<p className='card-text'>{project.title}</p>
-							<Link to={Routes.PORTFOLIO_DETAIL.replace(":id", project.id)}>
-								Read case →
-							</Link>
+	if (loading) {
+		<p>The projects are loading...</p>;
+	} else {
+		return (
+			<div className='row g-0 p-3'>
+				{!loading &&
+					data.projects.map((project, key) => (
+						<div className='card col-12 col-md-3' key={key}>
+							<img src={project.image} className='card-img-top' alt='...' />
+							<div className='card-body'>
+								<p className='card-text'>{project.title}</p>
+								<Link to={Routes.PORTFOLIO_DETAIL.replace(":id", project.id)}>
+									Read case →
+								</Link>
+							</div>
 						</div>
-					</div>
-				))}
-		</div>
-	);
+					))}
+			</div>
+		);
+	}
 };
 
 export default Project;
