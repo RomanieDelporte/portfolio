@@ -235,3 +235,19 @@
       }
     }
 }
+
+
+@media (max-width: 375px) {
+  .homepage {
+    &_contact {
+      height: 40vh;
+    }
+  }
+}
+@media (max-width: 320px) {
+  .homepage {
+    &_contact {
+      height: 50vh;
+    }
+  }
+}
