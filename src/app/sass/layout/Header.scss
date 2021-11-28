@@ -124,3 +124,11 @@
     cursor: pointer;
   }
 }
+@media (max-width: 428px) {
+  .header .hamburgernavigation .close {
+    position: absolute;
+    right: 5%;
+    margin-top: -12rem;
+    cursor: pointer;
+  }
+}

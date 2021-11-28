@@ -163,3 +163,37 @@
     }
   }
 }
+@media (max-width: 428px) {
+  .aboutpage {
+    &_about {
+      h1 {
+        font-size: 26px;
+        max-width: 22%;
+      }
+    }
+
+    &_technologies {
+      h1 {
+        font-size: 26px;
+        max-width: 35%;
+      }
+    }
+  }
+}
+@media (max-width: 375px) {
+  .aboutpage {
+    &_about {
+      h1 {
+        font-size: 26px;
+        max-width: 25%;
+      }
+    }
+
+    &_technologies {
+      h1 {
+        font-size: 26px;
+        max-width: 39%;
+      }
+    }
+  }
+}
