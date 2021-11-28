@@ -120,11 +120,11 @@
   .header .hamburgernavigation .close {
     position: absolute;
     right: 5%;
-    margin-top: -12rem;
+    margin-top: -6rem;
     cursor: pointer;
   }
 }
-@media (max-width: 428px) {
+@media (min-width: 428px) {
   .header .hamburgernavigation .close {
     position: absolute;
     right: 5%;
