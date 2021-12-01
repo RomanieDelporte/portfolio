@@ -116,7 +116,8 @@
 
 }
 
-@media (max-width: 375px) {
+
+@media (max-width: 370px) {
   .header .hamburgernavigation .close {
     position: absolute;
     right: 5%;
@@ -124,7 +125,10 @@
     cursor: pointer;
   }
 }
-@media (min-width: 375px) {
+
+
+
+@media (min-width: 380px) {
   .header .hamburgernavigation .close {
     position: absolute;
     right: 5%;
@@ -132,6 +136,8 @@
     cursor: pointer;
   }
 }
+
+
 @media (min-width: 428px) {
   .header .hamburgernavigation .close {
     position: absolute;
@@ -140,7 +146,9 @@
     cursor: pointer;
   }
 }
-@media (min-width: 390px) {
+
+
+@media (min-width: 414px) {
   .header .hamburgernavigation .close {
     position: absolute;
     right: 5%;
