@@ -6,6 +6,7 @@
   &_title {
     display: flex;
     align-items: center;
+    padding: 0.5rem;
 
 
     img {
@@ -63,7 +64,7 @@
 @media (max-width: 990px) {
   .header .hamburgernavigation .close {
     opacity: 1;
-
+    position: relative;
   }
 
   .header .navigation {
@@ -73,16 +74,22 @@
   .header .hamburgernavigation {
     display: flex;
     align-items: center;
+    justify-content: flex-start;
+    z-index: 2;
   }
 
   .header_nav {
     display: flex;
-    flex-direction: column;
+    // flex-direction: column;
     top: 80px;
+    font-size: 25px;
     background: $color-white;
     right: 0;
-    width: 100%;
+    width: 100vw;
+    height: 100vh;
+    flex-wrap: wrap;
     align-items: center;
+
   }
 
   .header .hamburgernavigation .hamburger {
@@ -94,7 +101,7 @@
   .header .hamburgernavigation .close {
     position: absolute;
     right: 5%;
-    margin-top: -6rem;
+    margin-top: -25rem;
     cursor: pointer;
   }
 
